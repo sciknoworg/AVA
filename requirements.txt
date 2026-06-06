@@ -1,0 +1,9 @@
+sentence-transformers
+faiss-cpu
+numpy
+tqdm
+nltk
+transformers
+torch
+pandas
+spacy
