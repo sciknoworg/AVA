@@ -1,8 +1,0 @@
-numpy
-torch
-tqdm
-scikit-learn
-transformers
-einops
-sentence-transformers
-accelerate

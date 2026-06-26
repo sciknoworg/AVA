@@ -1,0 +1,518 @@
+{
+  "1": {
+    "GO": {
+      "assets_mpnet-triplet_final": {
+        "f1_score": 0.05240258846206802,
+        "precision": 0.09288968434754312,
+        "recall": 0.03649555711819984,
+        "total_correct": 5709,
+        "total_predicted": 61460,
+        "total_ground_truth": 156430
+      },
+      "assets_mpnet-triplet-hyperbolic_final": {
+        "f1_score": 0.07369943536349054,
+        "precision": 0.1340833951825113,
+        "recall": 0.050815061049670776,
+        "total_correct": 7949,
+        "total_predicted": 59284,
+        "total_ground_truth": 156430
+      },
+      "assets_mpnet-triplet-dpo_final": {
+        "f1_score": 0.009281117324453142,
+        "precision": 0.015575103934445984,
+        "recall": 0.006609985296937928,
+        "total_correct": 1034,
+        "total_predicted": 66388,
+        "total_ground_truth": 156430
+      },
+      "MPNET": {
+        "f1_score": 0.08539163328882954,
+        "precision": 0.15535913093350426,
+        "recall": 0.058876174646806875,
+        "total_correct": 9210,
+        "total_predicted": 59282,
+        "total_ground_truth": 156430
+      }
+    },
+    "SchemaOrg": {
+      "assets_mpnet-triplet_final": {
+        "f1_score": 0.08003300330033003,
+        "precision": 0.07101024890190337,
+        "recall": 0.09168241965973535,
+        "total_correct": 97,
+        "total_predicted": 1366,
+        "total_ground_truth": 1058
+      },
+      "assets_mpnet-triplet-hyperbolic_final": {
+        "f1_score": 0.08667211774325428,
+        "precision": 0.07636887608069164,
+        "recall": 0.1001890359168242,
+        "total_correct": 106,
+        "total_predicted": 1388,
+        "total_ground_truth": 1058
+      },
+      "assets_mpnet-triplet-dpo_final": {
+        "f1_score": 0.012412723041117145,
+        "precision": 0.010526315789473684,
+        "recall": 0.015122873345935728,
+        "total_correct": 16,
+        "total_predicted": 1520,
+        "total_ground_truth": 1058
+      },
+      "MPNET": {
+        "f1_score": 0.07922392886014552,
+        "precision": 0.0692090395480226,
+        "recall": 0.09262759924385633,
+        "total_correct": 98,
+        "total_predicted": 1416,
+        "total_ground_truth": 1058
+      }
+    },
+    "SWEET": {
+      "assets_mpnet-triplet_final": {
+        "f1_score": 0.029071045113490096,
+        "precision": 0.029411764705882353,
+        "recall": 0.02873812922847744,
+        "total_correct": 463,
+        "total_predicted": 15742,
+        "total_ground_truth": 16111
+      },
+      "assets_mpnet-triplet-hyperbolic_final": {
+        "f1_score": 0.03616840915512857,
+        "precision": 0.03659466327827192,
+        "recall": 0.035751970703246226,
+        "total_correct": 576,
+        "total_predicted": 15740,
+        "total_ground_truth": 16111
+      },
+      "assets_mpnet-triplet-dpo_final": {
+        "f1_score": 0.004212840003663339,
+        "precision": 0.004145139973567223,
+        "recall": 0.004282788157159705,
+        "total_correct": 69,
+        "total_predicted": 16646,
+        "total_ground_truth": 16111
+      },
+      "MPNET": {
+        "f1_score": 0.03323177435059836,
+        "precision": 0.03363856034592395,
+        "recall": 0.032834709204891066,
+        "total_correct": 529,
+        "total_predicted": 15726,
+        "total_ground_truth": 16111
+      }
+    },
+    "OBI": {
+      "assets_mpnet-triplet_final": {
+        "f1_score": 0.06951454290025495,
+        "precision": 0.09056399132321041,
+        "recall": 0.05640462720594444,
+        "total_correct": 668,
+        "total_predicted": 7376,
+        "total_ground_truth": 11843
+      },
+      "assets_mpnet-triplet-hyperbolic_final": {
+        "f1_score": 0.10057725310728587,
+        "precision": 0.13092336853506634,
+        "recall": 0.08165160854513215,
+        "total_correct": 967,
+        "total_predicted": 7386,
+        "total_ground_truth": 11843
+      },
+      "assets_mpnet-triplet-dpo_final": {
+        "f1_score": 0.011582047825869902,
+        "precision": 0.014167073766487542,
+        "recall": 0.009794815502828675,
+        "total_correct": 116,
+        "total_predicted": 8188,
+        "total_ground_truth": 11843
+      },
+      "MPNET": {
+        "f1_score": 0.09428943937418513,
+        "precision": 0.12329514457174032,
+        "recall": 0.07633201047032002,
+        "total_correct": 904,
+        "total_predicted": 7332,
+        "total_ground_truth": 11843
+      }
+    },
+    "PO": {
+      "assets_mpnet-triplet_final": {
+        "f1_score": 0.08581600149896945,
+        "precision": 0.0925626515763945,
+        "recall": 0.07998602864128536,
+        "total_correct": 229,
+        "total_predicted": 2474,
+        "total_ground_truth": 2863
+      },
+      "assets_mpnet-triplet-hyperbolic_final": {
+        "f1_score": 0.13601352620702614,
+        "precision": 0.14715447154471545,
+        "recall": 0.12644079636744673,
+        "total_correct": 362,
+        "total_predicted": 2460,
+        "total_ground_truth": 2863
+      },
+      "assets_mpnet-triplet-dpo_final": {
+        "f1_score": 0.01791918083744743,
+        "precision": 0.018802762854950115,
+        "recall": 0.017114914425427872,
+        "total_correct": 49,
+        "total_predicted": 2606,
+        "total_ground_truth": 2863
+      },
+      "MPNET": {
+        "f1_score": 0.11339235260877756,
+        "precision": 0.12305805396565822,
+        "recall": 0.10513447432762836,
+        "total_correct": 301,
+        "total_predicted": 2446,
+        "total_ground_truth": 2863
+      }
+    }
+  },
+  "5": {
+    "GO": {
+      "assets_mpnet-triplet_final": {
+        "f1_score": 0.060978571397031875,
+        "precision": 0.0465742152194148,
+        "recall": 0.08828229879179185,
+        "total_correct": 13810,
+        "total_predicted": 296516,
+        "total_ground_truth": 156430
+      },
+      "assets_mpnet-triplet-hyperbolic_final": {
+        "f1_score": 0.09117389509217207,
+        "precision": 0.07066348777674628,
+        "recall": 0.1284600140637985,
+        "total_correct": 20095,
+        "total_predicted": 284376,
+        "total_ground_truth": 156430
+      },
+      "assets_mpnet-triplet-dpo_final": {
+        "f1_score": 0.00831452916610535,
+        "precision": 0.006198178520094652,
+        "recall": 0.012625455475292462,
+        "total_correct": 1975,
+        "total_predicted": 318642,
+        "total_ground_truth": 156430
+      },
+      "MPNET": {
+        "f1_score": 0.10639180580268653,
+        "precision": 0.08318975771163287,
+        "recall": 0.1475420315796203,
+        "total_correct": 23080,
+        "total_predicted": 277438,
+        "total_ground_truth": 156430
+      }
+    },
+    "SchemaOrg": {
+      "assets_mpnet-triplet_final": {
+        "f1_score": 0.06269925611052073,
+        "precision": 0.03647604327666151,
+        "recall": 0.22306238185255198,
+        "total_correct": 236,
+        "total_predicted": 6470,
+        "total_ground_truth": 1058
+      },
+      "assets_mpnet-triplet-hyperbolic_final": {
+        "f1_score": 0.07314496963295483,
+        "precision": 0.04251074278698588,
+        "recall": 0.2618147448015123,
+        "total_correct": 277,
+        "total_predicted": 6516,
+        "total_ground_truth": 1058
+      },
+      "assets_mpnet-triplet-dpo_final": {
+        "f1_score": 0.010726474890297417,
+        "precision": 0.0061572907920514975,
+        "recall": 0.04158790170132325,
+        "total_correct": 44,
+        "total_predicted": 7146,
+        "total_ground_truth": 1058
+      },
+      "MPNET": {
+        "f1_score": 0.07064650677789364,
+        "precision": 0.04097369216812821,
+        "recall": 0.2561436672967864,
+        "total_correct": 271,
+        "total_predicted": 6614,
+        "total_ground_truth": 1058
+      }
+    },
+    "SWEET": {
+      "assets_mpnet-triplet_final": {
+        "f1_score": 0.02754502979790693,
+        "precision": 0.016771176820368668,
+        "recall": 0.07702811743529266,
+        "total_correct": 1241,
+        "total_predicted": 73996,
+        "total_ground_truth": 16111
+      },
+      "assets_mpnet-triplet-hyperbolic_final": {
+        "f1_score": 0.03253558925199068,
+        "precision": 0.019788811865226505,
+        "recall": 0.09142821674632239,
+        "total_correct": 1473,
+        "total_predicted": 74436,
+        "total_ground_truth": 16111
+      },
+      "assets_mpnet-triplet-dpo_final": {
+        "f1_score": 0.0027790739876600817,
+        "precision": 0.0016682436133658683,
+        "recall": 0.00831729873999131,
+        "total_correct": 134,
+        "total_predicted": 80324,
+        "total_ground_truth": 16111
+      },
+      "MPNET": {
+        "f1_score": 0.031300629318990886,
+        "precision": 0.019029240706494064,
+        "recall": 0.08813853888647508,
+        "total_correct": 1420,
+        "total_predicted": 74622,
+        "total_ground_truth": 16111
+      }
+    },
+    "OBI": {
+      "assets_mpnet-triplet_final": {
+        "f1_score": 0.07019926575133162,
+        "precision": 0.04688208616780045,
+        "recall": 0.1396605589799882,
+        "total_correct": 1654,
+        "total_predicted": 35280,
+        "total_ground_truth": 11843
+      },
+      "assets_mpnet-triplet-hyperbolic_final": {
+        "f1_score": 0.0923010845055299,
+        "precision": 0.06189159610621508,
+        "recall": 0.18145740099636917,
+        "total_correct": 2149,
+        "total_predicted": 34722,
+        "total_ground_truth": 11843
+      },
+      "assets_mpnet-triplet-dpo_final": {
+        "f1_score": 0.009768486861385171,
+        "precision": 0.006354532052259672,
+        "recall": 0.021109516169889386,
+        "total_correct": 250,
+        "total_predicted": 39342,
+        "total_ground_truth": 11843
+      },
+      "MPNET": {
+        "f1_score": 0.0900819513454217,
+        "precision": 0.06043638882475179,
+        "recall": 0.1768133074389935,
+        "total_correct": 2094,
+        "total_predicted": 34648,
+        "total_ground_truth": 11843
+      }
+    },
+    "PO": {
+      "assets_mpnet-triplet_final": {
+        "f1_score": 0.08344380101862835,
+        "precision": 0.05213600697471665,
+        "recall": 0.20887181278379321,
+        "total_correct": 598,
+        "total_predicted": 11470,
+        "total_ground_truth": 2863
+      },
+      "assets_mpnet-triplet-hyperbolic_final": {
+        "f1_score": 0.11118165784832452,
+        "precision": 0.06966053748231966,
+        "recall": 0.27523576667830946,
+        "total_correct": 788,
+        "total_predicted": 11312,
+        "total_ground_truth": 2863
+      },
+      "assets_mpnet-triplet-dpo_final": {
+        "f1_score": 0.014042525004967875,
+        "precision": 0.008664377963053785,
+        "recall": 0.03702410059378274,
+        "total_correct": 106,
+        "total_predicted": 12234,
+        "total_ground_truth": 2863
+      },
+      "MPNET": {
+        "f1_score": 0.1074154470975422,
+        "precision": 0.06717463653879839,
+        "recall": 0.2679008033531261,
+        "total_correct": 767,
+        "total_predicted": 11418,
+        "total_ground_truth": 2863
+      }
+    }
+  },
+  "10": {
+    "GO": {
+      "assets_mpnet-triplet_final": {
+        "f1_score": 0.04770055127143796,
+        "precision": 0.030121494510223154,
+        "recall": 0.11455603145176757,
+        "total_correct": 17920,
+        "total_predicted": 594924,
+        "total_ground_truth": 156430
+      },
+      "assets_mpnet-triplet-hyperbolic_final": {
+        "f1_score": 0.0717719325356528,
+        "precision": 0.04576326059492767,
+        "recall": 0.16626606149715528,
+        "total_correct": 26009,
+        "total_predicted": 568338,
+        "total_ground_truth": 156430
+      },
+      "assets_mpnet-triplet-dpo_final": {
+        "f1_score": 0.006373604582283565,
+        "precision": 0.003977773969777169,
+        "recall": 0.01602633765901681,
+        "total_correct": 2507,
+        "total_predicted": 630252,
+        "total_ground_truth": 156430
+      },
+      "MPNET": {
+        "f1_score": 0.079785049001115,
+        "precision": 0.051050659075791927,
+        "recall": 0.18251614140510133,
+        "total_correct": 28551,
+        "total_predicted": 559268,
+        "total_ground_truth": 156430
+      }
+    },
+    "SchemaOrg": {
+      "assets_mpnet-triplet_final": {
+        "f1_score": 0.047441058079355954,
+        "precision": 0.02567294227477828,
+        "recall": 0.31190926275992437,
+        "total_correct": 330,
+        "total_predicted": 12854,
+        "total_ground_truth": 1058
+      },
+      "assets_mpnet-triplet-hyperbolic_final": {
+        "f1_score": 0.05359162895927602,
+        "precision": 0.02896224973253859,
+        "recall": 0.35822306238185253,
+        "total_correct": 379,
+        "total_predicted": 13086,
+        "total_ground_truth": 1058
+      },
+      "assets_mpnet-triplet-dpo_final": {
+        "f1_score": 0.008251048288921953,
+        "precision": 0.004443473193473193,
+        "recall": 0.057655954631379965,
+        "total_correct": 61,
+        "total_predicted": 13728,
+        "total_ground_truth": 1058
+      },
+      "MPNET": {
+        "f1_score": 0.050640033760022504,
+        "precision": 0.02735562310030395,
+        "recall": 0.34026465028355385,
+        "total_correct": 360,
+        "total_predicted": 13160,
+        "total_ground_truth": 1058
+      }
+    },
+    "SWEET": {
+      "assets_mpnet-triplet_final": {
+        "f1_score": 0.02021154753082261,
+        "precision": 0.01121213356708933,
+        "recall": 0.10241449941034077,
+        "total_correct": 1650,
+        "total_predicted": 147162,
+        "total_ground_truth": 16111
+      },
+      "assets_mpnet-triplet-hyperbolic_final": {
+        "f1_score": 0.02299129779985547,
+        "precision": 0.01274232633279483,
+        "recall": 0.11749736205077277,
+        "total_correct": 1893,
+        "total_predicted": 148560,
+        "total_ground_truth": 16111
+      },
+      "assets_mpnet-triplet-dpo_final": {
+        "f1_score": 0.0019167092283236828,
+        "precision": 0.0010559862405625181,
+        "recall": 0.010365588728198125,
+        "total_correct": 167,
+        "total_predicted": 158146,
+        "total_ground_truth": 16111
+      },
+      "MPNET": {
+        "f1_score": 0.022355081881985966,
+        "precision": 0.012383631370973144,
+        "recall": 0.11476630873316368,
+        "total_correct": 1849,
+        "total_predicted": 149310,
+        "total_ground_truth": 16111
+      }
+    },
+    "OBI": {
+      "assets_mpnet-triplet_final": {
+        "f1_score": 0.05351571580634506,
+        "precision": 0.03129203033338103,
+        "recall": 0.18466604745419235,
+        "total_correct": 2187,
+        "total_predicted": 69890,
+        "total_ground_truth": 11843
+      },
+      "assets_mpnet-triplet-hyperbolic_final": {
+        "f1_score": 0.06771768610598534,
+        "precision": 0.03967839312666899,
+        "recall": 0.2308536688339103,
+        "total_correct": 2734,
+        "total_predicted": 68904,
+        "total_ground_truth": 11843
+      },
+      "assets_mpnet-triplet-dpo_final": {
+        "f1_score": 0.0075098947938161765,
+        "precision": 0.004333680374804789,
+        "recall": 0.02811787553829266,
+        "total_correct": 333,
+        "total_predicted": 76840,
+        "total_ground_truth": 11843
+      },
+      "MPNET": {
+        "f1_score": 0.06739111492836426,
+        "precision": 0.03952170993079686,
+        "recall": 0.22857384108756226,
+        "total_correct": 2707,
+        "total_predicted": 68494,
+        "total_ground_truth": 11843
+      }
+    },
+    "PO": {
+      "assets_mpnet-triplet_final": {
+        "f1_score": 0.060476360321800815,
+        "precision": 0.03410818059901654,
+        "recall": 0.2665036674816626,
+        "total_correct": 763,
+        "total_predicted": 22370,
+        "total_ground_truth": 2863
+      },
+      "assets_mpnet-triplet-hyperbolic_final": {
+        "f1_score": 0.07488373941730593,
+        "precision": 0.0422497308934338,
+        "recall": 0.3290254977296542,
+        "total_correct": 942,
+        "total_predicted": 22296,
+        "total_ground_truth": 2863
+      },
+      "assets_mpnet-triplet-dpo_final": {
+        "f1_score": 0.01034860444914454,
+        "precision": 0.005801643093080376,
+        "recall": 0.04785190359762487,
+        "total_correct": 137,
+        "total_predicted": 23614,
+        "total_ground_truth": 2863
+      },
+      "MPNET": {
+        "f1_score": 0.07302120348315046,
+        "precision": 0.04110612855007474,
+        "recall": 0.3265805099545931,
+        "total_correct": 935,
+        "total_predicted": 22746,
+        "total_ground_truth": 2863
+      }
+    }
+  }
+}

@@ -1,0 +1,416 @@
+{
+  "1": {
+    "envo-sweet": {
+      "MPNET": {
+        "intersection": 492,
+        "precision": 7.495429616087751,
+        "recall": 61.118012422360245,
+        "f-score": 13.35323653141539,
+        "predictions-len": 6564,
+        "reference-len": 805
+      },
+      "assets_mpnet-triplet_final": {
+        "intersection": 501,
+        "precision": 7.63254113345521,
+        "recall": 62.2360248447205,
+        "f-score": 13.597503053331526,
+        "predictions-len": 6564,
+        "reference-len": 805
+      },
+      "assets_mpnet-triplet-hyperbolic_final": {
+        "intersection": 504,
+        "precision": 7.678244972577697,
+        "recall": 62.60869565217392,
+        "f-score": 13.678925227303571,
+        "predictions-len": 6564,
+        "reference-len": 805
+      },
+      "assets_mpnet-triplet-dpo_final": {
+        "intersection": 377,
+        "precision": 5.743449116392443,
+        "recall": 46.83229813664596,
+        "f-score": 10.232053195820328,
+        "predictions-len": 6564,
+        "reference-len": 805
+      }
+    },
+    "mouse-human": {
+      "MPNET": {
+        "intersection": 1297,
+        "precision": 47.28399562522785,
+        "recall": 85.55408970976254,
+        "f-score": 60.90631603662832,
+        "predictions-len": 2743,
+        "reference-len": 1516
+      },
+      "assets_mpnet-triplet_final": {
+        "intersection": 1270,
+        "precision": 46.29967189208896,
+        "recall": 83.7730870712401,
+        "f-score": 59.6384127729514,
+        "predictions-len": 2743,
+        "reference-len": 1516
+      },
+      "assets_mpnet-triplet-hyperbolic_final": {
+        "intersection": 1320,
+        "precision": 48.122493620123954,
+        "recall": 87.0712401055409,
+        "f-score": 61.986381779760514,
+        "predictions-len": 2743,
+        "reference-len": 1516
+      },
+      "assets_mpnet-triplet-dpo_final": {
+        "intersection": 1003,
+        "precision": 36.56580386438206,
+        "recall": 66.16094986807389,
+        "f-score": 47.10025827659075,
+        "predictions-len": 2743,
+        "reference-len": 1516
+      }
+    },
+    "MaterialInformation-MatOnto": {
+      "MPNET": {
+        "intersection": 95,
+        "precision": 17.431192660550458,
+        "recall": 31.456953642384107,
+        "f-score": 22.43211334120425,
+        "predictions-len": 545,
+        "reference-len": 302
+      },
+      "assets_mpnet-triplet_final": {
+        "intersection": 108,
+        "precision": 19.816513761467892,
+        "recall": 35.76158940397351,
+        "f-score": 25.50177095631641,
+        "predictions-len": 545,
+        "reference-len": 302
+      },
+      "assets_mpnet-triplet-hyperbolic_final": {
+        "intersection": 107,
+        "precision": 19.63302752293578,
+        "recall": 35.430463576158935,
+        "f-score": 25.265643447461628,
+        "predictions-len": 545,
+        "reference-len": 302
+      },
+      "assets_mpnet-triplet-dpo_final": {
+        "intersection": 47,
+        "precision": 8.623853211009175,
+        "recall": 15.562913907284766,
+        "f-score": 11.097992916174734,
+        "predictions-len": 545,
+        "reference-len": 302
+      }
+    },
+    "yago-wikidata": {
+      "MPNET": {
+        "intersection": 273,
+        "precision": 89.80263157894737,
+        "recall": 89.80263157894737,
+        "f-score": 89.80263157894738,
+        "predictions-len": 304,
+        "reference-len": 304
+      },
+      "assets_mpnet-triplet_final": {
+        "intersection": 275,
+        "precision": 90.46052631578947,
+        "recall": 90.46052631578947,
+        "f-score": 90.46052631578947,
+        "predictions-len": 304,
+        "reference-len": 304
+      },
+      "assets_mpnet-triplet-hyperbolic_final": {
+        "intersection": 283,
+        "precision": 93.0921052631579,
+        "recall": 93.0921052631579,
+        "f-score": 93.0921052631579,
+        "predictions-len": 304,
+        "reference-len": 304
+      },
+      "assets_mpnet-triplet-dpo_final": {
+        "intersection": 161,
+        "precision": 52.960526315789465,
+        "recall": 52.960526315789465,
+        "f-score": 52.960526315789465,
+        "predictions-len": 304,
+        "reference-len": 304
+      }
+    }
+  },
+  "5": {
+    "envo-sweet": {
+      "MPNET": {
+        "intersection": 622,
+        "precision": 1.895185862279098,
+        "recall": 77.26708074534162,
+        "f-score": 3.6996282527881035,
+        "predictions-len": 32820,
+        "reference-len": 805
+      },
+      "assets_mpnet-triplet_final": {
+        "intersection": 635,
+        "precision": 1.9347958561852527,
+        "recall": 78.88198757763976,
+        "f-score": 3.7769516728624533,
+        "predictions-len": 32820,
+        "reference-len": 805
+      },
+      "assets_mpnet-triplet-hyperbolic_final": {
+        "intersection": 648,
+        "precision": 1.9744058500914077,
+        "recall": 80.4968944099379,
+        "f-score": 3.8542750929368026,
+        "predictions-len": 32820,
+        "reference-len": 805
+      },
+      "assets_mpnet-triplet-dpo_final": {
+        "intersection": 433,
+        "precision": 1.3193174893357709,
+        "recall": 53.7888198757764,
+        "f-score": 2.57546468401487,
+        "predictions-len": 32820,
+        "reference-len": 805
+      }
+    },
+    "mouse-human": {
+      "MPNET": {
+        "intersection": 1411,
+        "precision": 10.28800583302953,
+        "recall": 93.07387862796834,
+        "f-score": 18.52800210097827,
+        "predictions-len": 13715,
+        "reference-len": 1516
+      },
+      "assets_mpnet-triplet_final": {
+        "intersection": 1375,
+        "precision": 10.02551950419249,
+        "recall": 90.69920844327177,
+        "f-score": 18.05528199067691,
+        "predictions-len": 13715,
+        "reference-len": 1516
+      },
+      "assets_mpnet-triplet-hyperbolic_final": {
+        "intersection": 1421,
+        "precision": 10.36091870215093,
+        "recall": 93.73350923482849,
+        "f-score": 18.659313242728643,
+        "predictions-len": 13715,
+        "reference-len": 1516
+      },
+      "assets_mpnet-triplet-dpo_final": {
+        "intersection": 1057,
+        "precision": 7.706890266131973,
+        "recall": 69.72295514511873,
+        "f-score": 13.879587683014904,
+        "predictions-len": 13715,
+        "reference-len": 1516
+      }
+    },
+    "MaterialInformation-MatOnto": {
+      "MPNET": {
+        "intersection": 174,
+        "precision": 6.385321100917431,
+        "recall": 57.615894039735096,
+        "f-score": 11.496531219028741,
+        "predictions-len": 2725,
+        "reference-len": 302
+      },
+      "assets_mpnet-triplet_final": {
+        "intersection": 184,
+        "precision": 6.752293577981651,
+        "recall": 60.9271523178808,
+        "f-score": 12.157251404030394,
+        "predictions-len": 2725,
+        "reference-len": 302
+      },
+      "assets_mpnet-triplet-hyperbolic_final": {
+        "intersection": 166,
+        "precision": 6.091743119266055,
+        "recall": 54.966887417218544,
+        "f-score": 10.96795507102742,
+        "predictions-len": 2725,
+        "reference-len": 302
+      },
+      "assets_mpnet-triplet-dpo_final": {
+        "intersection": 66,
+        "precision": 2.4220183486238533,
+        "recall": 21.85430463576159,
+        "f-score": 4.360753221010902,
+        "predictions-len": 2725,
+        "reference-len": 302
+      }
+    },
+    "yago-wikidata": {
+      "MPNET": {
+        "intersection": 296,
+        "precision": 19.473684210526315,
+        "recall": 97.36842105263158,
+        "f-score": 32.45614035087719,
+        "predictions-len": 1520,
+        "reference-len": 304
+      },
+      "assets_mpnet-triplet_final": {
+        "intersection": 293,
+        "precision": 19.27631578947368,
+        "recall": 96.38157894736842,
+        "f-score": 32.127192982456144,
+        "predictions-len": 1520,
+        "reference-len": 304
+      },
+      "assets_mpnet-triplet-hyperbolic_final": {
+        "intersection": 294,
+        "precision": 19.342105263157894,
+        "recall": 96.71052631578947,
+        "f-score": 32.23684210526316,
+        "predictions-len": 1520,
+        "reference-len": 304
+      },
+      "assets_mpnet-triplet-dpo_final": {
+        "intersection": 178,
+        "precision": 11.710526315789474,
+        "recall": 58.55263157894737,
+        "f-score": 19.517543859649127,
+        "predictions-len": 1520,
+        "reference-len": 304
+      }
+    }
+  },
+  "10": {
+    "envo-sweet": {
+      "MPNET": {
+        "intersection": 643,
+        "precision": 0.9795856185252895,
+        "recall": 79.87577639751552,
+        "f-score": 1.935435322447137,
+        "predictions-len": 65640,
+        "reference-len": 805
+      },
+      "assets_mpnet-triplet_final": {
+        "intersection": 660,
+        "precision": 1.0054844606946984,
+        "recall": 81.98757763975155,
+        "f-score": 1.986605463165024,
+        "predictions-len": 65640,
+        "reference-len": 805
+      },
+      "assets_mpnet-triplet-hyperbolic_final": {
+        "intersection": 671,
+        "precision": 1.02224253503961,
+        "recall": 83.35403726708076,
+        "f-score": 2.019715554217774,
+        "predictions-len": 65640,
+        "reference-len": 805
+      },
+      "assets_mpnet-triplet-dpo_final": {
+        "intersection": 446,
+        "precision": 0.6794637416209628,
+        "recall": 55.40372670807453,
+        "f-score": 1.3424636917751522,
+        "predictions-len": 65640,
+        "reference-len": 805
+      }
+    },
+    "mouse-human": {
+      "MPNET": {
+        "intersection": 1434,
+        "precision": 5.227852716004374,
+        "recall": 94.5910290237467,
+        "f-score": 9.908104746769848,
+        "predictions-len": 27430,
+        "reference-len": 1516
+      },
+      "assets_mpnet-triplet_final": {
+        "intersection": 1403,
+        "precision": 5.114837768866205,
+        "recall": 92.54617414248021,
+        "f-score": 9.693912803150692,
+        "predictions-len": 27430,
+        "reference-len": 1516
+      },
+      "assets_mpnet-triplet-hyperbolic_final": {
+        "intersection": 1446,
+        "precision": 5.271600437477215,
+        "recall": 95.3825857519789,
+        "f-score": 9.991017757203068,
+        "predictions-len": 27430,
+        "reference-len": 1516
+      },
+      "assets_mpnet-triplet-dpo_final": {
+        "intersection": 1072,
+        "precision": 3.9081297849070364,
+        "recall": 70.71240105540898,
+        "f-score": 7.406895598701031,
+        "predictions-len": 27430,
+        "reference-len": 1516
+      }
+    },
+    "MaterialInformation-MatOnto": {
+      "MPNET": {
+        "intersection": 197,
+        "precision": 3.6146788990825693,
+        "recall": 65.23178807947019,
+        "f-score": 6.849791376912378,
+        "predictions-len": 5450,
+        "reference-len": 302
+      },
+      "assets_mpnet-triplet_final": {
+        "intersection": 219,
+        "precision": 4.0183486238532105,
+        "recall": 72.51655629139073,
+        "f-score": 7.614742698191934,
+        "predictions-len": 5450,
+        "reference-len": 302
+      },
+      "assets_mpnet-triplet-hyperbolic_final": {
+        "intersection": 200,
+        "precision": 3.669724770642202,
+        "recall": 66.22516556291392,
+        "f-score": 6.954102920723228,
+        "predictions-len": 5450,
+        "reference-len": 302
+      },
+      "assets_mpnet-triplet-dpo_final": {
+        "intersection": 76,
+        "precision": 1.3944954128440368,
+        "recall": 25.165562913907287,
+        "f-score": 2.642559109874826,
+        "predictions-len": 5450,
+        "reference-len": 302
+      }
+    },
+    "yago-wikidata": {
+      "MPNET": {
+        "intersection": 298,
+        "precision": 9.802631578947368,
+        "recall": 98.02631578947368,
+        "f-score": 17.822966507177032,
+        "predictions-len": 3040,
+        "reference-len": 304
+      },
+      "assets_mpnet-triplet_final": {
+        "intersection": 296,
+        "precision": 9.736842105263158,
+        "recall": 97.36842105263158,
+        "f-score": 17.70334928229665,
+        "predictions-len": 3040,
+        "reference-len": 304
+      },
+      "assets_mpnet-triplet-hyperbolic_final": {
+        "intersection": 299,
+        "precision": 9.835526315789474,
+        "recall": 98.35526315789474,
+        "f-score": 17.88277511961722,
+        "predictions-len": 3040,
+        "reference-len": 304
+      },
+      "assets_mpnet-triplet-dpo_final": {
+        "intersection": 195,
+        "precision": 6.4144736842105265,
+        "recall": 64.14473684210526,
+        "f-score": 11.66267942583732,
+        "predictions-len": 3040,
+        "reference-len": 304
+      }
+    }
+  }
+}

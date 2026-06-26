@@ -1,0 +1,416 @@
+{
+  "1": {
+    "envo-sweet": {
+      "MiniLM-L6-v2": {
+        "intersection": 486,
+        "precision": 7.40402193784278,
+        "recall": 60.372670807453424,
+        "f-score": 13.1903921834713,
+        "predictions-len": 6564,
+        "reference-len": 805
+      },
+      "assets_MiniLM-triplet-m0.3_final": {
+        "intersection": 481,
+        "precision": 7.3278488726386355,
+        "recall": 59.75155279503106,
+        "f-score": 13.054688560184557,
+        "predictions-len": 6564,
+        "reference-len": 805
+      },
+      "assets_MiniLM-triplet-hyperbolic-m0.3-c0.3_final": {
+        "intersection": 487,
+        "precision": 7.419256550883607,
+        "recall": 60.49689440993789,
+        "f-score": 13.217532908128648,
+        "predictions-len": 6564,
+        "reference-len": 805
+      },
+      "assets_MiniLM-triplet-dpo-m0.3-beta0.5_final": {
+        "intersection": 426,
+        "precision": 6.489945155393053,
+        "recall": 52.91925465838509,
+        "f-score": 11.561948704030396,
+        "predictions-len": 6564,
+        "reference-len": 805
+      }
+    },
+    "mouse-human": {
+      "MiniLM-L6-v2": {
+        "intersection": 1291,
+        "precision": 47.06525701786365,
+        "recall": 85.15831134564644,
+        "f-score": 60.62455975581123,
+        "predictions-len": 2743,
+        "reference-len": 1516
+      },
+      "assets_MiniLM-triplet-m0.3_final": {
+        "intersection": 1278,
+        "precision": 46.59132336857456,
+        "recall": 84.30079155672823,
+        "f-score": 60.01408781404085,
+        "predictions-len": 2743,
+        "reference-len": 1516
+      },
+      "assets_MiniLM-triplet-hyperbolic-m0.3-c0.3_final": {
+        "intersection": 1303,
+        "precision": 47.502734232592054,
+        "recall": 85.94986807387863,
+        "f-score": 61.18807231744541,
+        "predictions-len": 2743,
+        "reference-len": 1516
+      },
+      "assets_MiniLM-triplet-dpo-m0.3-beta0.5_final": {
+        "intersection": 1164,
+        "precision": 42.43528982865476,
+        "recall": 76.78100263852242,
+        "f-score": 54.66071847851609,
+        "predictions-len": 2743,
+        "reference-len": 1516
+      }
+    },
+    "MaterialInformation-MatOnto": {
+      "MiniLM-L6-v2": {
+        "intersection": 98,
+        "precision": 17.98165137614679,
+        "recall": 32.450331125827816,
+        "f-score": 23.140495867768596,
+        "predictions-len": 545,
+        "reference-len": 302
+      },
+      "assets_MiniLM-triplet-m0.3_final": {
+        "intersection": 99,
+        "precision": 18.1651376146789,
+        "recall": 32.78145695364238,
+        "f-score": 23.376623376623375,
+        "predictions-len": 545,
+        "reference-len": 302
+      },
+      "assets_MiniLM-triplet-hyperbolic-m0.3-c0.3_final": {
+        "intersection": 103,
+        "precision": 18.89908256880734,
+        "recall": 34.105960264900666,
+        "f-score": 24.321133412042506,
+        "predictions-len": 545,
+        "reference-len": 302
+      },
+      "assets_MiniLM-triplet-dpo-m0.3-beta0.5_final": {
+        "intersection": 72,
+        "precision": 13.211009174311927,
+        "recall": 23.841059602649008,
+        "f-score": 17.001180637544273,
+        "predictions-len": 545,
+        "reference-len": 302
+      }
+    },
+    "yago-wikidata": {
+      "MiniLM-L6-v2": {
+        "intersection": 275,
+        "precision": 90.46052631578947,
+        "recall": 90.46052631578947,
+        "f-score": 90.46052631578947,
+        "predictions-len": 304,
+        "reference-len": 304
+      },
+      "assets_MiniLM-triplet-m0.3_final": {
+        "intersection": 271,
+        "precision": 89.14473684210526,
+        "recall": 89.14473684210526,
+        "f-score": 89.14473684210526,
+        "predictions-len": 304,
+        "reference-len": 304
+      },
+      "assets_MiniLM-triplet-hyperbolic-m0.3-c0.3_final": {
+        "intersection": 274,
+        "precision": 90.13157894736842,
+        "recall": 90.13157894736842,
+        "f-score": 90.13157894736842,
+        "predictions-len": 304,
+        "reference-len": 304
+      },
+      "assets_MiniLM-triplet-dpo-m0.3-beta0.5_final": {
+        "intersection": 230,
+        "precision": 75.6578947368421,
+        "recall": 75.6578947368421,
+        "f-score": 75.6578947368421,
+        "predictions-len": 304,
+        "reference-len": 304
+      }
+    }
+  },
+  "5": {
+    "envo-sweet": {
+      "MiniLM-L6-v2": {
+        "intersection": 624,
+        "precision": 1.9012797074954297,
+        "recall": 77.51552795031056,
+        "f-score": 3.711524163568774,
+        "predictions-len": 32820,
+        "reference-len": 805
+      },
+      "assets_MiniLM-triplet-m0.3_final": {
+        "intersection": 632,
+        "precision": 1.9256550883607555,
+        "recall": 78.50931677018633,
+        "f-score": 3.7591078066914494,
+        "predictions-len": 32820,
+        "reference-len": 805
+      },
+      "assets_MiniLM-triplet-hyperbolic-m0.3-c0.3_final": {
+        "intersection": 641,
+        "precision": 1.9530773918342472,
+        "recall": 79.62732919254658,
+        "f-score": 3.8126394052044605,
+        "predictions-len": 32820,
+        "reference-len": 805
+      },
+      "assets_MiniLM-triplet-dpo-m0.3-beta0.5_final": {
+        "intersection": 531,
+        "precision": 1.6179159049360146,
+        "recall": 65.96273291925466,
+        "f-score": 3.1583643122676577,
+        "predictions-len": 32820,
+        "reference-len": 805
+      }
+    },
+    "mouse-human": {
+      "MiniLM-L6-v2": {
+        "intersection": 1416,
+        "precision": 10.32446226759023,
+        "recall": 93.40369393139841,
+        "f-score": 18.593657671853457,
+        "predictions-len": 13715,
+        "reference-len": 1516
+      },
+      "assets_MiniLM-triplet-m0.3_final": {
+        "intersection": 1389,
+        "precision": 10.12759752096245,
+        "recall": 91.62269129287598,
+        "f-score": 18.239117589127435,
+        "predictions-len": 13715,
+        "reference-len": 1516
+      },
+      "assets_MiniLM-triplet-hyperbolic-m0.3-c0.3_final": {
+        "intersection": 1414,
+        "precision": 10.30987969376595,
+        "recall": 93.27176781002639,
+        "f-score": 18.567395443503383,
+        "predictions-len": 13715,
+        "reference-len": 1516
+      },
+      "assets_MiniLM-triplet-dpo-m0.3-beta0.5_final": {
+        "intersection": 1278,
+        "precision": 9.31826467371491,
+        "recall": 84.30079155672823,
+        "f-score": 16.781563915698246,
+        "predictions-len": 13715,
+        "reference-len": 1516
+      }
+    },
+    "MaterialInformation-MatOnto": {
+      "MiniLM-L6-v2": {
+        "intersection": 162,
+        "precision": 5.944954128440367,
+        "recall": 53.64238410596026,
+        "f-score": 10.703666997026758,
+        "predictions-len": 2725,
+        "reference-len": 302
+      },
+      "assets_MiniLM-triplet-m0.3_final": {
+        "intersection": 188,
+        "precision": 6.89908256880734,
+        "recall": 62.251655629139066,
+        "f-score": 12.421539478031056,
+        "predictions-len": 2725,
+        "reference-len": 302
+      },
+      "assets_MiniLM-triplet-hyperbolic-m0.3-c0.3_final": {
+        "intersection": 184,
+        "precision": 6.752293577981651,
+        "recall": 60.9271523178808,
+        "f-score": 12.157251404030394,
+        "predictions-len": 2725,
+        "reference-len": 302
+      },
+      "assets_MiniLM-triplet-dpo-m0.3-beta0.5_final": {
+        "intersection": 138,
+        "precision": 5.064220183486238,
+        "recall": 45.6953642384106,
+        "f-score": 9.117938553022794,
+        "predictions-len": 2725,
+        "reference-len": 302
+      }
+    },
+    "yago-wikidata": {
+      "MiniLM-L6-v2": {
+        "intersection": 293,
+        "precision": 19.27631578947368,
+        "recall": 96.38157894736842,
+        "f-score": 32.127192982456144,
+        "predictions-len": 1520,
+        "reference-len": 304
+      },
+      "assets_MiniLM-triplet-m0.3_final": {
+        "intersection": 289,
+        "precision": 19.013157894736842,
+        "recall": 95.06578947368422,
+        "f-score": 31.688596491228072,
+        "predictions-len": 1520,
+        "reference-len": 304
+      },
+      "assets_MiniLM-triplet-hyperbolic-m0.3-c0.3_final": {
+        "intersection": 289,
+        "precision": 19.013157894736842,
+        "recall": 95.06578947368422,
+        "f-score": 31.688596491228072,
+        "predictions-len": 1520,
+        "reference-len": 304
+      },
+      "assets_MiniLM-triplet-dpo-m0.3-beta0.5_final": {
+        "intersection": 253,
+        "precision": 16.644736842105264,
+        "recall": 83.22368421052632,
+        "f-score": 27.741228070175435,
+        "predictions-len": 1520,
+        "reference-len": 304
+      }
+    }
+  },
+  "10": {
+    "envo-sweet": {
+      "MiniLM-L6-v2": {
+        "intersection": 659,
+        "precision": 1.0039609993906156,
+        "recall": 81.86335403726707,
+        "f-score": 1.983595454887501,
+        "predictions-len": 65640,
+        "reference-len": 805
+      },
+      "assets_MiniLM-triplet-m0.3_final": {
+        "intersection": 668,
+        "precision": 1.0176721511273614,
+        "recall": 82.98136645962732,
+        "f-score": 2.0106855293852055,
+        "predictions-len": 65640,
+        "reference-len": 805
+      },
+      "assets_MiniLM-triplet-hyperbolic-m0.3-c0.3_final": {
+        "intersection": 674,
+        "precision": 1.0268129189518587,
+        "recall": 83.72670807453416,
+        "f-score": 2.028745579050342,
+        "predictions-len": 65640,
+        "reference-len": 805
+      },
+      "assets_MiniLM-triplet-dpo-m0.3-beta0.5_final": {
+        "intersection": 558,
+        "precision": 0.850091407678245,
+        "recall": 69.3167701863354,
+        "f-score": 1.6795846188577017,
+        "predictions-len": 65640,
+        "reference-len": 805
+      }
+    },
+    "mouse-human": {
+      "MiniLM-L6-v2": {
+        "intersection": 1440,
+        "precision": 5.249726576740795,
+        "recall": 94.9868073878628,
+        "f-score": 9.949561251986456,
+        "predictions-len": 27430,
+        "reference-len": 1516
+      },
+      "assets_MiniLM-triplet-m0.3_final": {
+        "intersection": 1404,
+        "precision": 5.118483412322275,
+        "recall": 92.61213720316623,
+        "f-score": 9.700822220686797,
+        "predictions-len": 27430,
+        "reference-len": 1516
+      },
+      "assets_MiniLM-triplet-hyperbolic-m0.3-c0.3_final": {
+        "intersection": 1441,
+        "precision": 5.253372220196865,
+        "recall": 95.05277044854881,
+        "f-score": 9.95647066952256,
+        "predictions-len": 27430,
+        "reference-len": 1516
+      },
+      "assets_MiniLM-triplet-dpo-m0.3-beta0.5_final": {
+        "intersection": 1308,
+        "precision": 4.768501640539555,
+        "recall": 86.2796833773087,
+        "f-score": 9.037518137221033,
+        "predictions-len": 27430,
+        "reference-len": 1516
+      }
+    },
+    "MaterialInformation-MatOnto": {
+      "MiniLM-L6-v2": {
+        "intersection": 184,
+        "precision": 3.3761467889908254,
+        "recall": 60.9271523178808,
+        "f-score": 6.397774687065367,
+        "predictions-len": 5450,
+        "reference-len": 302
+      },
+      "assets_MiniLM-triplet-m0.3_final": {
+        "intersection": 202,
+        "precision": 3.7064220183486243,
+        "recall": 66.88741721854305,
+        "f-score": 7.0236439499304595,
+        "predictions-len": 5450,
+        "reference-len": 302
+      },
+      "assets_MiniLM-triplet-hyperbolic-m0.3-c0.3_final": {
+        "intersection": 200,
+        "precision": 3.669724770642202,
+        "recall": 66.22516556291392,
+        "f-score": 6.954102920723228,
+        "predictions-len": 5450,
+        "reference-len": 302
+      },
+      "assets_MiniLM-triplet-dpo-m0.3-beta0.5_final": {
+        "intersection": 152,
+        "precision": 2.7889908256880735,
+        "recall": 50.331125827814574,
+        "f-score": 5.285118219749652,
+        "predictions-len": 5450,
+        "reference-len": 302
+      }
+    },
+    "yago-wikidata": {
+      "MiniLM-L6-v2": {
+        "intersection": 296,
+        "precision": 9.736842105263158,
+        "recall": 97.36842105263158,
+        "f-score": 17.70334928229665,
+        "predictions-len": 3040,
+        "reference-len": 304
+      },
+      "assets_MiniLM-triplet-m0.3_final": {
+        "intersection": 298,
+        "precision": 9.802631578947368,
+        "recall": 98.02631578947368,
+        "f-score": 17.822966507177032,
+        "predictions-len": 3040,
+        "reference-len": 304
+      },
+      "assets_MiniLM-triplet-hyperbolic-m0.3-c0.3_final": {
+        "intersection": 296,
+        "precision": 9.736842105263158,
+        "recall": 97.36842105263158,
+        "f-score": 17.70334928229665,
+        "predictions-len": 3040,
+        "reference-len": 304
+      },
+      "assets_MiniLM-triplet-dpo-m0.3-beta0.5_final": {
+        "intersection": 260,
+        "precision": 8.552631578947368,
+        "recall": 85.52631578947368,
+        "f-score": 15.550239234449762,
+        "predictions-len": 3040,
+        "reference-len": 304
+      }
+    }
+  }
+}
