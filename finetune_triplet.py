@@ -1,10 +1,3 @@
-# --------------------------------------------------------------------------------
-import os
-import ssl
-import certifi
-os.environ["SSL_CERT_FILE"] = certifi.where()
-ssl._create_default_https_context = ssl.create_default_context(cafile=certifi.where())
-# --------------------------------------------------------------------------------
 import os
 import argparse
 from sentence_transformers.sentence_transformer import SentenceTransformer, SentenceTransformerTrainer
@@ -34,8 +27,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--w_dpo", type=float, default=0.1)
     parser.add_argument("--dataloader_num_workers", type=int, default=4)
     parser.add_argument("--logging_steps", type=int, default=500)
-    parser.add_argument("--save_steps", type=int, default=2000)
-    parser.add_argument("--eval_steps", type=int, default=2000)
+    parser.add_argument("--save_steps", type=int, default=5000)
+    parser.add_argument("--eval_steps", type=int, default=5000)
     parser.add_argument("--seed", type=int, default=42)
     return parser.parse_args()
 

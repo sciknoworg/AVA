@@ -1,0 +1,13 @@
+{
+    "test": {
+        "triplet_accuracy": 0.0,
+        "MRR": 0.5,
+        "Recall@1": 0.0,
+        "hard_negative_acc": 0.0,
+        "best_threshold": 0.5,
+        "accuracy": 0.5,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+    }
+}

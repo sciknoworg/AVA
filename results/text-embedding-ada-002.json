@@ -1,0 +1,15 @@
+{
+    "test": {
+        "triplet_accuracy": 0.49887615194425716,
+        "MRR": 0.7494380759721285,
+        "Recall@1": 0.49887615194425716,
+        "hard_negative_acc": 0.238207220915756,
+        "best_threshold": 0.5,
+        "accuracy": 0.5,
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6666666666666666,
+        "roc_auc": 0.5028095822483236,
+        "avg_precision": 0.45656944954807693
+    }
+}

@@ -271,8 +271,8 @@ def classification_metrics(
         "precision": float(precision_score(y_true, y_pred, zero_division=0)),
         "recall": float(recall_score(y_true, y_pred, zero_division=0)),
         "f1": float(f1_score(y_true, y_pred, zero_division=0)),
-        "roc_auc": float(roc_auc_score(y_true, y_scores)),
-        "avg_precision": float(average_precision_score(y_true, y_scores)),
+        # "roc_auc": float(roc_auc_score(y_true, y_scores)),
+        # "avg_precision": float(average_precision_score(y_true, y_scores)),
     }
 
 

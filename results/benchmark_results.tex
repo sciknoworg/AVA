@@ -1,23 +1,47 @@
 \begin{tabular}{lcccccccccc}
 \toprule
-Model & ('In-Ontology', 'Triplet Acc') & ('In-Ontology', 'MRR') & ('In-Ontology', 'R@1') & ('In-Ontology', 'Hard Neg Acc') & ('In-Ontology', 'F1') & ('Cross-Ontology', 'Triplet Acc') & ('Cross-Ontology', 'MRR') & ('Cross-Ontology', 'R@1') & ('Cross-Ontology', 'Hard Neg Acc') & ('Cross-Ontology', 'F1') \\
+Model & ('Cross-Ontology', 'Triplet Acc') & ('Cross-Ontology', 'MRR') & ('Cross-Ontology', 'R@1') & ('Cross-Ontology', 'Hard Neg Acc') \\
 \midrule
-MiniLM-L6 & 0.5940 & 0.7970 & 0.5940 & 0.4270 & 0.689 (0.858) & 0.5940 & 0.7970 & 0.5940 & 0.4240 & 0.668 (0.858) \\
-MPNET-base & 0.5750 & 0.7870 & 0.5750 & 0.3880 & 0.683 (0.849) & 0.5830 & 0.7910 & 0.5830 & 0.3910 & 0.67 (0.849) \\
-RoBERTa-large & 0.5550 & 0.7780 & 0.5550 & 0.3700 & 0.684 (0.787) & 0.5840 & 0.7920 & 0.5840 & 0.3950 & 0.69 (0.787) \\
-Nomic-embed & 0.5460 & 0.7730 & 0.5460 & 0.3410 & 0.677 (0.897) & 0.5680 & 0.7840 & 0.5680 & 0.3610 & 0.671 (0.897) \\
-Nomic-embed-MoE & 0.5300 & 0.7650 & 0.5300 & 0.3140 & 0.679 (0.779) & 0.5380 & 0.7690 & 0.5380 & 0.3240 & 0.673 (0.779) \\
-E5-small & 0.4200 & 0.7100 & 0.4200 & 0.2180 & 0.665 (0.915) & 0.4310 & 0.7160 & 0.4310 & 0.2200 & 0.663 (0.915) \\
-E5-base & 0.4070 & 0.7030 & 0.4070 & 0.2040 & 0.666 (0.897) & 0.4240 & 0.7120 & 0.4240 & 0.1990 & 0.668 (0.897) \\
-E5-large & 0.4130 & 0.7070 & 0.4130 & 0.1910 & 0.667 (0.835) & 0.4320 & 0.7160 & 0.4320 & 0.1950 & 0.667 (0.835) \\
-GTE-small & 0.5950 & 0.7990 & 0.5950 & 0.4050 & 0.696 (0.96) & 0.5970 & 0.8000 & 0.5970 & 0.4070 & 0.683 (0.96) \\
-GTE-base & 0.5870 & 0.7950 & 0.5870 & 0.3930 & 0.693 (0.953) & 0.5930 & 0.7980 & 0.5930 & 0.3870 & 0.684 (0.953) \\
-GTE-large & 0.5990 & 0.8010 & 0.5990 & 0.4020 & 0.695 (0.95) & 0.6200 & 0.8120 & 0.6200 & 0.4160 & 0.696 (0.95) \\
-BGE-small & 0.5580 & 0.7790 & 0.5580 & 0.3580 & 0.68 (0.889) & 0.5690 & 0.7840 & 0.5690 & 0.3680 & 0.675 (0.889) \\
-BGE-base & 0.5560 & 0.7780 & 0.5560 & 0.3460 & 0.679 (0.876) & 0.5830 & 0.7920 & 0.5830 & 0.3680 & 0.676 (0.876) \\
-BGE-large & 0.5030 & 0.7510 & 0.5030 & 0.2950 & 0.672 (0.818) & 0.5450 & 0.7720 & 0.5450 & 0.3170 & 0.677 (0.818) \\
-Qwen3-Embedding-0.6B & 0.4620 & 0.7310 & 0.4620 & 0.2670 & 0.674 (0.823) & 0.5070 & 0.7530 & 0.5070 & 0.3000 & 0.674 (0.823) \\
-Qwen3-Embedding-4B & 0.5520 & 0.7760 & 0.5520 & 0.3600 & 0.697 (0.832) & 0.6170 & 0.8080 & 0.6170 & 0.4170 & 0.71 (0.832) \\
-Qwen3-Embedding-8B & 0.6090 & 0.8040 & 0.6090 & 0.4370 & 0.701 (0.83) & 0.6590 & 0.8290 & 0.6590 & 0.4760 & 0.722 (0.83) \\
+MiniLM-L6 & 0.657 & 0.829 & 0.657 & 0.467 \\
+MPNET-base & 0.636 & 0.818 & 0.636 & 0.427 \\
+RoBERTa-large & 0.621 & 0.810 & 0.621 & 0.412 \\
+Nomic-embed & 0.602 & 0.801 & 0.602 & 0.363 \\
+Nomic-embed-MoE & 0.584 & 0.792 & 0.584 & 0.333 \\
+E5-small & 0.553 & 0.776 & 0.553 & 0.354 \\
+E5-base & 0.506 & 0.753 & 0.506 & 0.305 \\
+E5-large & 0.542 & 0.771 & 0.542 & 0.338 \\
+GTE-small & 0.650 & 0.826 & 0.650 & 0.433 \\
+GTE-base & 0.632 & 0.817 & 0.632 & 0.402 \\
+GTE-large & 0.647 & 0.825 & 0.647 & 0.417 \\
+BGE-small & 0.609 & 0.805 & 0.609 & 0.370 \\
+BGE-base & 0.604 & 0.802 & 0.604 & 0.356 \\
+BGE-large & 0.558 & 0.779 & 0.558 & 0.302 \\
+Qwen3-Embedding-0.6B & 0.739 & 0.870 & 0.739 & 0.572 \\
+Qwen3-Embedding-4B & 0.709 & 0.854 & 0.709 & 0.523 \\
+Qwen3-Embedding-8B & 0.736 & 0.868 & 0.736 & 0.564 \\
+assets_MiniLM-triplet-m0.7_final & 0.962 & 0.981 & 0.962 & 0.937 \\
+assets_MiniLM-triplet-hyperbolic-dpo-m0.3-c0.3-beta0.5-w_dpo0.3-w_hyperbolic0.7_final & 0.822 & 0.911 & 0.822 & 0.811 \\
+text-embedding-ada-002 & 0.499 & 0.749 & 0.499 & 0.238 \\
+nvidia_llama-embed-nemotron-8b & 0.217 & 0.609 & 0.217 & 0.135 \\
+text-embedding-3-small & 0.442 & 0.721 & 0.442 & 0.201 \\
+assets_Qwen3-triplet-dpo_final & 0.792 & 0.896 & 0.792 & 0.791 \\
+assets_mpnet-triplet-dpo_final & 0.876 & 0.938 & 0.876 & 0.874 \\
+assets_MiniLM-triplet-hyperbolic-m0.3-c0.5_final & 0.981 & 0.990 & 0.981 & 0.965 \\
+assets_MiniLM-triplet-dpo-m0.3-beta0.1_final & 0.883 & 0.942 & 0.883 & 0.860 \\
+assets_Qwen3-triplet-hyperbolic_final & 0.000 & 0.500 & 0.000 & 0.000 \\
+Linq-AI-Research_Linq-Embed-Mistral & 0.634 & 0.817 & 0.634 & 0.411 \\
+assets_MiniLM-triplet-hyperbolic-m0.3-c0.1_final & 0.981 & 0.990 & 0.981 & 0.966 \\
+assets_MiniLM-triplet-hyperbolic-m0.3-c0.3_final & 0.981 & 0.991 & 0.981 & 0.966 \\
+intfloat_multilingual-e5-large-instruct & 0.633 & 0.818 & 0.633 & 0.394 \\
+assets_MiniLM-triplet-dpo-m0.3-beta0.5_final & 0.913 & 0.956 & 0.913 & 0.885 \\
+assets_MiniLM-triplet-dpo-m0.3-beta0.3_final & 0.900 & 0.950 & 0.900 & 0.874 \\
+assets_MiniLM-triplet-hyperbolic-m0.3-c1.0_final & 0.981 & 0.990 & 0.981 & 0.965 \\
+google_embeddinggemma-300m & 0.455 & 0.728 & 0.455 & 0.203 \\
+assets_MiniLM-triplet-m0.3_final & 0.975 & 0.987 & 0.975 & 0.955 \\
+assets_mpnet-triplet_final & 0.985 & 0.992 & 0.985 & 0.972 \\
+text-embedding-3-large & 0.388 & 0.694 & 0.388 & 0.155 \\
+assets_MiniLM-triplet-m0.5_final & 0.968 & 0.984 & 0.968 & 0.944 \\
+assets_mpnet-triplet-hyperbolic_final & 0.989 & 0.995 & 0.989 & 0.980 \\
+assets_Qwen3-triplet_final & 0.985 & 0.992 & 0.985 & 0.973 \\
 \bottomrule
 \end{tabular}

@@ -69,6 +69,10 @@ models_to_evaluate = [
     "assets/MiniLM-triplet-dpo-m0.3-beta0.5/final",
 
     "assets/MiniLM-triplet-hyperbolic-dpo-m0.3-c0.3-beta0.5-w_dpo0.3-w_hyperbolic0.7/final"
+
+    "assets/mpnet-triplet/final",
+    "assets/mpnet-triplet-hyperbolic/final",
+    "assets/mpnet-triplet-dpo/final"
 ]
 
 
